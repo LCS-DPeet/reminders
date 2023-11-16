@@ -24,22 +24,8 @@ struct ContentView: View {
                 
             //the list
             List {
-                VStack {
-                    HStack {
-                        
-                        Image(systemName: "circle")
-                        
-                        Text("Call auto body shop")
-                    }
-                        
-                        Text("2023-11-16             ")
-                            .font(.footnote)
-                    
-                }
-                Text("a")
-                Text("a")
-                Text("a")
-                Text("a")
+             reminder()
+               
             }
             .listStyle(.plain)
             
