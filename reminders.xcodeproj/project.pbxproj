@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C11B90F12B07AD910024F38E /* IndividualReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B90F02B07AD910024F38E /* IndividualReminder.swift */; };
 		C1321EDA2B06954400A7897E /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1321ED92B06954400A7897E /* Reminder.swift */; };
 		C14090F12AFAD215004C1979 /* remindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14090F02AFAD215004C1979 /* remindersApp.swift */; };
 		C14090F32AFAD215004C1979 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14090F22AFAD215004C1979 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C11B90F02B07AD910024F38E /* IndividualReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualReminder.swift; sourceTree = "<group>"; };
 		C1321ED92B06954400A7897E /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		C14090ED2AFAD215004C1979 /* reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14090F02AFAD215004C1979 /* remindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remindersApp.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				C14090F42AFAD217004C1979 /* Assets.xcassets */,
 				C14090F62AFAD217004C1979 /* Preview Content */,
 				C1321ED92B06954400A7897E /* Reminder.swift */,
+				C11B90F02B07AD910024F38E /* IndividualReminder.swift */,
 			);
 			path = reminders;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				C14090F32AFAD215004C1979 /* ContentView.swift in Sources */,
 				C14090F12AFAD215004C1979 /* remindersApp.swift in Sources */,
+				C11B90F12B07AD910024F38E /* IndividualReminder.swift in Sources */,
 				C1321EDA2B06954400A7897E /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

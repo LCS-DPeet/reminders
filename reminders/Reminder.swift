@@ -26,12 +26,35 @@ struct reminder: View {
         VStack {
             HStack {
                 
+                //Feed piper
                 Image(systemName: "circle")
                 
-                Text("Call auto body shop")
+                Text("Feed Piper                         ")
+            
             }
                 
-                Text("2023-11-16             ")
+            HStack {
+                Text("        Tomorrow , 8:00 AM")
+                    .font(.footnote)
+            Image(systemName: "arrow.left.arrow.right")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 10)
+                
+                Text("Daily")
+                    .font(.largeTitle)
+            }
+            
+        }
+        VStack {
+            HStack {
+                
+                Image(systemName: "circle")
+                
+                Text("Write lesson about interactive apps")
+            }
+                
+                Text("Tomorrow, 6:00 PM                                  ")
                     .font(.footnote)
             
         }
@@ -40,10 +63,10 @@ struct reminder: View {
                 
                 Image(systemName: "circle")
                 
-                Text("Call auto body shop")
+                Text("Take Piper to the vet")
             }
                 
-                Text("2023-11-16             ")
+                Text("2023-11-29, 3:00PM")
                     .font(.footnote)
             
         }
@@ -52,22 +75,10 @@ struct reminder: View {
                 
                 Image(systemName: "circle")
                 
-                Text("Call auto body shop")
+                Text("Drop off dontations at Goodwill")
             }
                 
-                Text("2023-11-16             ")
-                    .font(.footnote)
-            
-        }
-        VStack {
-            HStack {
-                
-                Image(systemName: "circle")
-                
-                Text("Call auto body shop")
-            }
-                
-                Text("2023-11-16             ")
+                Text("2023-11-11            ")
                     .font(.footnote)
             
         }

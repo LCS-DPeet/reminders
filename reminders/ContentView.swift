@@ -19,13 +19,15 @@ struct ContentView: View {
                     .bold()
                     .foregroundStyle(.blue)
                     .padding()
-            Spacer()
+                Spacer()
             }
                 
             //the list
             List {
-             reminder()
-               
+                IndividualReminder(todo: "call auto body shop", date: "2022-11-23")
+                IndividualReminder(todo: "walk dog", date: "Tomorrow")
+                IndividualReminder(todo: "call auto body shop", date: "Friday")
+
             }
             .listStyle(.plain)
             
