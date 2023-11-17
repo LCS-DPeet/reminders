@@ -18,18 +18,25 @@ struct IndividualReminder: View {
                 
                 Image(systemName: "circle")
                 
-                Text(todo)
-                    .bold()
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text(todo)
+                            .bold()
+                        
+                        Spacer()
+                    }
+                    .border(.green)
+                    
+                    Text("2023-11-29, 3:00PM")
+                        .font(.footnote)
+                        .border(.orange)
+                }
+                .border(.red)
                 
-                Spacer()
+                
             }
             
-            HStack {
-                Text("2023-11-29, 3:00PM")
-                    .font(.footnote)
-                
-                Spacer()
-            }
+           
             
         }
     }
