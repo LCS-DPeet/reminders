@@ -24,12 +24,26 @@ struct ContentView: View {
                 
             //the list
             List {
-                IndividualReminder(todo: "call auto body shop", date: "2022-11-23")
-                IndividualReminder(todo: "walk dog", date: "Tomorrow")
-                IndividualReminder(todo: "call auto body shop", date: "Friday")
+                IndividualReminder(todo: "Call auto body shop", date: "2022-11-16")
+                IndividualReminder(todo: "Feed Piper", date: "Tomorrow, 8:00 AM, ⇆ Daily")
+                IndividualReminder(todo: "Write lesson about interactive apps", date: "Tomorrow, 6:00 PM")
+                IndividualReminder(todo: "Take Piper to the vet", date: "2023-11-29, 3:00 PM")
+                IndividualReminder(todo: "Drop of donations at Goowill", date: "2023-11-11")
+                IndividualReminder(todo: "Call plumber bout clog in sink", date: "Tomorrow, 2:00 PM")
+                IndividualReminder(todo: "Call dentist to schedule appontment ", date: "2023-11-06 4:00 PM")
 
             }
+        
             .listStyle(.plain)
+            
+            HStack {
+                Image(systemName: "plus.circle.fill")
+                    .foregroundColor(.blue)
+     
+            Text("New Reminder")
+                .foregroundColor(.blue)
+                
+            }
             
             //top right symbols
             

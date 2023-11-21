@@ -25,18 +25,18 @@ struct IndividualReminder: View {
                         
                         Spacer()
                     }
-                    .border(.green)
+                    
                     
                     Text("2023-11-29, 3:00PM")
                         .font(.footnote)
-                        .border(.orange)
+                    
                 }
-                .border(.red)
+                
                 
                 
             }
             
-           
+            
             
         }
     }
